@@ -1,0 +1,13 @@
+const yesBtn = document.getElementById("yes");
+const noBtn = document.getElementById("no");
+const message = document.getElementById("message");
+
+yesBtn.addEventListener("click", () => {
+  message.innerText = "Yay! 💕 I knew it! Happy Valentine’s Day 😘";
+});
+
+noBtn.addEventListener("mouseover", () => {
+  const x = Math.random() * 200 - 100;
+  const y = Math.random() * 200 - 100;
+  noBtn.style.transform = `translate(${x}px, ${y}px)`;
+});
