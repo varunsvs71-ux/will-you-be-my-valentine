@@ -3,7 +3,7 @@ const noBtn = document.getElementById("no");
 const message = document.getElementById("message");
 
 yesBtn.addEventListener("click", () => {
-    message.innerText = "Yay! I knew you would say YES❤️, Best decision ever 😉❤️";
+    message.innerText = "Yay! I knew you would say YES❤️, Best decision ever booo😉❤️";
 });
 
 noBtn.addEventListener("mouseover", () => {
@@ -11,4 +11,5 @@ noBtn.addEventListener("mouseover", () => {
     const y = Math.random() * 300 - 150;
     noBtn.style.transform = `translate(${x}px, ${y}px)`;
 });
+
 
