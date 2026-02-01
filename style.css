@@ -48,3 +48,10 @@ button {
   font-size: 20px;
   color: #ff4d6d;
 }
+
+.disclaimer {
+  font-size: 14px;
+  color: #ff758c;
+  margin-top: 15px;
+  font-style: italic;
+}
